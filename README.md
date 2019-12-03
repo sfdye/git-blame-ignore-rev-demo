@@ -30,7 +30,7 @@ dbd6f39f (Wan Liuyang 2019-12-03 22:48:55 +0800 6)     main()
 
 3. git blame by picking up ignore rev file from local git config
 
-```
+```bash
 git config blame.ignoreRevsFile .git-blame-ignore-revs
 git blame hello.py
 
